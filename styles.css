@@ -15,7 +15,7 @@ body {
 }
 
 em {
-    margin-right: 5px;
+    margin-right: .3125rem;
 }
 
 .leftouterpanel {
@@ -42,6 +42,8 @@ em {
     background-color: pink;
 }
 
+
+/*------------------INNER PANEL #1 CONTENT------------------*/
 .inner-panel1 {
     display: flex;
     flex-direction: column;
@@ -49,19 +51,59 @@ em {
     background-color: #f9fafc;
     height: 35%;
 }
-
 .inner-panel1>h2 {
     font-size: 1.5rem;
-    padding: 0px 160px 40px 40px;
-    margin-top: -40px;
+    padding: 0px 10rem 2.5rem 2.5rem;
+    margin-top: -2.5rem;
    
 }
+/*-----------------------------------------------------------*/
 
+
+
+
+/*------------------INNER PANEL #2 CONTENT------------------*/
 .inner-panel2 {
     background-color: #ffffff;
     height: 30%;
-    
 }
+
+.inner-panel2>h2 {
+    margin-left: 2.5rem;
+}
+
+fieldset {
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    margin-left: 2.5rem;
+    gap: 1rem;
+}
+
+.inputRow {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    margin-right: 31rem;
+}
+
+.inputItems {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 18rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+}
+/*-----------------------------------------------------------*/
+
+
+
 
 .inner-panel3 {
     background-color: #f9fafc;
