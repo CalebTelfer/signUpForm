@@ -125,14 +125,8 @@ input {
 
 input:focus {
     border-color: blue;
-}
+    border: 3px solid;
 
-input:invalid {
-    border-color: red;
-}
-
-input:valid {
-    border-color: green;
 }
 /*-----------------------------------------------------------*/
 
@@ -158,6 +152,8 @@ input:valid {
     color: #ffffff;
     font-size: 1rem;
     font-weight: 700;
+
+    cursor: pointer;
 }
 
 
@@ -167,5 +163,6 @@ input:valid {
 
 .highlight {
     color: #596D48;
+    cursor: pointer;
 }
 /*-----------------------------------------------------------*/
