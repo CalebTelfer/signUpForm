@@ -122,6 +122,18 @@ input {
     border-radius: 5px;
     border: 1px solid #E5E7EB;
 }
+
+input:focus {
+    border-color: blue;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
 /*-----------------------------------------------------------*/
 
 
@@ -147,6 +159,7 @@ input {
     font-size: 1rem;
     font-weight: 700;
 }
+
 
 .inner-panel3>p {
     margin-left: 2.5rem;

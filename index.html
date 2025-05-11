@@ -28,51 +28,52 @@
 
         <div class="inner-panel2">
             <h2>Let's do this!</h2>
-            <fieldset>
-                <div class="inputRow">
-                    <div class="inputItems">
-                        <label for="">FIRST NAME</label>
-                        <input type="text">
+            <form action="#" method="post" id="registerForm">
+                <fieldset>
+                    <div class="inputRow">
+                        <div class="inputItems">
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" id="firstName" name="firstName">
+                        </div>
+    
+                        <div class="inputItems">
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" id="lastName" name="lastName">
+                        </div>
                     </div>
-
-                    <div class="inputItems">
-                        <label for="">LAST NAME</label>
-                        <input type="text">
+    
+                    <div class="inputRow">
+                        <div class="inputItems">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+    
+                        <div class="inputItems">
+                            <label for="phoneNum">PHONE NUMBER</label>
+                            <input type="tel" id="phoneNum" name="phoneNum">
+                        </div>
                     </div>
-                </div>
-
-                <div class="inputRow">
-                    <div class="inputItems">
-                        <label for="">EMAIL</label>
-                        <input type="text">
+    
+                    <div class="inputRow">
+                        <div class="inputItems">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+    
+                        <div class="inputItems">
+                            <label for="confirmPassword">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirmPassword" name="confirmPassword">
+                        </div>
+    
                     </div>
-
-                    <div class="inputItems">
-                        <label for="">PHONE NUMBER</label>
-                        <input type="text">
-                    </div>
-                </div>
-
-                <div class="inputRow">
-                    <div class="inputItems">
-                        <label for="">PASSWORD</label>
-                        <input type="text">
-                    </div>
-
-                    <div class="inputItems">
-                        <label for="">CONFIRM PASSWORD</label>
-                        <input type="text">
-                    </div>
-
-                </div>
-
-            </fieldset>
-
+    
+                </fieldset>
+            </form>
         </div>
 
 
         <div class="inner-panel3">
-            <button>Create Account</button>
+            <button type="submit" id="submitButton">Create Account</button>
             <p>Already have an account? <span class="highlight">Log in</span></p>
 
         </div>
